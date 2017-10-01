@@ -1,0 +1,20 @@
+# Site settings
+title: Reconnoitre
+description: Reconnoitre.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+
+exclude: ['README.md']
+
+timezone: Europe/Rome
+encoding: utf-8
+
+# Build settings
+markdown: kramdown
+
+# Markdown Processors
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 2..3

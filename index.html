@@ -1,1 +1,16 @@
-<h1>Hello World!</h1>
+---
+layout: default
+---
+
+    {% for post in site.posts %}
+    <article>
+      <header>
+        <h1><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+        <p><span>{{ post.date | date: "%b %-d, %Y" }}</span></p>
+      </header>
+
+      <div>
+        {{ post.content }}
+      </div>
+    </article>
+    {% endfor %}
