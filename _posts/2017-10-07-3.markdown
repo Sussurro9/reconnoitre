@@ -1,3 +1,10 @@
+---
+layout: post
+title: "3"
+date: 2017-10-07 12:00
+categories: hello world
+---
+
 Per ostacolare i piani del malvagio Dottor Lancetti ho deciso di chiedere la mano di Erminia.
 Una mossa astuta.
 Ho preso un diamante, è un Vera Gemma.
